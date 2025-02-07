@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: rgb(179, 244, 179);
+  --secundary-color: rgb(211, 211, 246);
+  --accent-color: violet;
+  --shadow-color: gray;
+}
+
+button.primary {
+  padding: 10px;
+  border: solid 2px var(--shadow-color);
+  background: var(--secundary-color);
+  border-radius: 8px;
+}
